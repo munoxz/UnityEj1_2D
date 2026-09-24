@@ -11,7 +11,7 @@ public class Timer : MonoBehaviour
     //private AudioClip stop;
     //[SerializeField]
     //private AudioSource respuestaAudio;
-    //Reloj objReloj;
+    ////Reloj objReloj;
     //#endregion
 
     public TextMeshProUGUI timerMinutes;
@@ -48,11 +48,11 @@ public class Timer : MonoBehaviour
             stopTime = timerTime;
             Debug.Log(stopTime.ToString());
             ///
-            if (stopTime >= 30)
-            {
-                respuestaAudio.clip = stop;
-                respuestaAudio.Play();
-            }
+            //if (stopTime >= 30)
+            //{
+            //    respuestaAudio.clip = stop;
+            //    respuestaAudio.Play();
+            //}
 
         }
     }
