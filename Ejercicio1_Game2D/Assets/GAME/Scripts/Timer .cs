@@ -23,10 +23,13 @@ public class Timer : MonoBehaviour
     private float timerTime;
     private bool isRunning = false;
 
+    public float StopTime { get => stopTime; set => stopTime = value; }
+
     // Use this for initialization
     void Start()
     {
-        TimerReset();
+        //TimerReset();
+        TimerStart(); // el tiempo inicia automáticamente al cargar la escena
     }
 
     public void TimerStart()
